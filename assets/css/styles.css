@@ -434,7 +434,7 @@ li.pokemon-card span {
 /* 💻 Laptops e tablets grandes (769px até 1024px) */
 @media (max-width: 1024px) {
   ol#pokedex-list {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   }
 
   .modal-content {
