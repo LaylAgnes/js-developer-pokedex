@@ -1,0 +1,23 @@
+// domElements.js
+export const DOM = {
+  pokedexList: document.getElementById("pokedex-list"),
+  modal: document.getElementById("pokemon-modal"),
+  generationSelect: document.getElementById("generationFilter"),
+  searchInput: document.getElementById("searchInput"),
+  searchBtn: document.getElementById("searchBtn"),
+  legendaryCheckbox: document.getElementById("legendaryFilter"),
+  mythicalCheckbox: document.getElementById("mythicalFilter"),
+  modalName: document.getElementById("pokemon-name"),
+  modalImg: document.getElementById("pokemon-image"),
+  modalType: document.getElementById("modal-type"),
+  modalHeight: document.getElementById("pokemon-height"),
+  modalWeight: document.getElementById("pokemon-weight"),
+  modalHealthPoints: document.getElementById("pokemon-health-points"),
+  modalAttack: document.getElementById("pokemon-attack"),
+  closeBtn: document.getElementById("close-btn"),
+  modalContent: document.querySelector(".modal-content"),
+  modalGender: document.getElementById("pokemon-gender"),
+  modalAbilities: document.getElementById("pokemon-abilities"),
+  modalDescription: document.getElementById("pokemon-description"),
+  modalMoves: document.getElementById("pokemon-moves"),
+};
