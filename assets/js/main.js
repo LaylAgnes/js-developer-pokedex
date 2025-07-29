@@ -1,4 +1,4 @@
-import { legendaryPokemons, mythicalPokemons, tipoTraduzido } from "./dados.js";
+import { legendaryPokemons, mythicalPokemons, tipoTraduzido, generationRanges } from "./dados.js";
 import { DOM } from "./domElements.js";
 import { capitalize, getTypeColor } from "./utils.js";
 
