@@ -41,7 +41,7 @@ export const tipoTraduzido = {
 };
 
 // --- Configuração: intervalos por geração ---
-  const generationRanges = {
+  export const generationRanges = {
     1: [1, 151], 
     2: [152, 251], 
     3: [252, 386], 
